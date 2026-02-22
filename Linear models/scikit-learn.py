@@ -14,7 +14,7 @@ y = df['MEDV']
 #Step 3 choose model hyperparameters
 model = LinearRegression()
 
-#Step 4 fit the model to the data
+#Step 4 fit the model to the data.
 model.fit(x,y)
 
 #Step 5 apply the model to new data(predicting house of a price of 6 rooms)
